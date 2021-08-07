@@ -1,0 +1,28 @@
+h1 {
+     
+    font-family: 'Zen Loop', cursive;
+    background-color: rgb(236, 185, 42);
+    width: 200px;
+    font-weight: bold;
+ }
+
+ h3{
+
+    font-family: 'Zen Tokyo Zoo', cursive;
+    font-size: 50px;
+    background-color: lavender;
+    width: 900px;
+
+ }
+
+
+img {
+   animation-name:example;
+   animation-duration: 4s;
+   animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 38px red;}
+    to{box-shadow: 1px 1px 38px yellow;}
+}
